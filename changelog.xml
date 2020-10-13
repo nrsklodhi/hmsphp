@@ -1,0 +1,202 @@
+<?php
+	ob_start();
+	session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta CHARSET="utf-8">
+    <link REL="stylesheet" HREF="css/reset.css" TYPE="text/css" MEDIA="screen">
+    <link REL="stylesheet" HREF="css/style.css" TYPE="text/css" MEDIA="screen">
+    <link REL="stylesheet" HREF="css/grid.css" TYPE="text/css" MEDIA="screen">   
+    <script SRC="js/jquery-1.6.2.min.js" TYPE="text/javascript"></script>     
+	<!--[if lt IE 7]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0"  alt="" /></a>
+        </div>
+	<![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+	<![endif]-->
+</head>
+<body id="page2">
+	<!--==============================header=================================-->
+    <header>
+    	<div CLASS="row-1">
+        	<div CLASS="main">
+            	<div CLASS="container_12">
+                	<div CLASS="grid_12">
+                    	<nav>
+                            <ul CLASS="menu">
+                               <li><a CLASS="active" HREF="home.php">Home</a></li>
+                                <li><a HREF="hotels.php">Hotels</a></li>
+                                <li><a HREF="services.php">Our Services</a></li>
+                                
+                            <li><a HREF="pricing.php">Prices</a></li>
+                                <li><a HREF="contacts.php">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div CLASS="clear"></div>
+            </div>
+        </div>
+        <div CLASS="row-2">
+        	<div CLASS="main">
+            	<div CLASS="container_12">
+                	<div CLASS="grid_9">
+                    	<h1>
+                            <a CLASS="logo" HREF="home.php">Sam<strong>'s</strong></a>
+                            <span>HOTELS</span>
+                        </h1>
+                    </div>
+                    <div CLASS="grid_3">
+                    	<form id="search-form" METHOD="post" ENCTYPE="multipart/form-data">
+                          <img SRC="images/pic-1.png" WIDTH="22" HEIGHT="29"> <strong> (+91)9171403616</strong>
+                        </form>
+                     </div>
+                     <div CLASS="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header><div CLASS="ic">developer @ neetiraj singh - November 22nd 2018!</div>
+<!-- content -->
+    <section id="content">
+        <div CLASS="bg-top">
+        	<div CLASS="bg-top-2">
+                <div CLASS="bg">
+                    <div CLASS="bg-top-shadow">
+                        <div CLASS="main">
+                            <div CLASS="box p3">
+                                <div CLASS="padding">
+                                    <div CLASS="container_12">
+                                        <div CLASS="wrapper">
+                                            <div CLASS="grid_12">
+                                                <div CLASS="wrapper">
+                                                    <article class="grid_4 alpha">
+                                                        <div CLASS="indent">
+                                                            <h3 CLASS="prev-indent-bot2">Interior Services</h3>
+                                                            <ul CLASS="list-2">
+                                                                <li><a HREF="#">Sed ut perspiciatis unde omnis </a></li>
+                                                                <li><a HREF="#">Fiste natus error volutem accusantium</a></li>
+                                                                <li><a HREF="#">Doloremque laudantium totam rem</a></li>
+                                                                <li><a HREF="#">Eaque ipsa quae illo inventore veritatis</a></li>
+                                                                <li><a HREF="#">Quasi architecto beatae vitae dicta</a></li>
+                                                                <li><a HREF="#">Nemo enim ipsam voluptatem</a></li>
+                                                                <li><a HREF="#">Wuia voluptas sit aspernatur odit aut</a></li>
+                                                                <li><a HREF="#">Consequuntur magni dolores qui</a></li>
+                                                                <li><a HREF="#">Ratione voluptatem sequi nesciunt</a></li>
+                                                                <li CLASS="last-item"><a HREF="#">Neque porro quisquam est qui</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </article>
+                                                    <article class="grid_8 omega">
+                                                        <div CLASS="indent-right">
+                                                            <h3 CLASS="p2">Company Profile</h3>
+                                                            <div CLASS="wrapper prev-indent-bot2">
+                                                                <figure class="img-indent2 frame2"><img SRC="images/page2-img1.jpg" ALT="" /></figure>
+                                                                <div CLASS="extra-wrap">
+                                                                    <h6 CLASS="prev-indent-bot">
+                                                                    At vero eos et accusamus et iusto odio dignissimos ducims qui blanditiis praesentium. </h6>
+                                                                    Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+                                                                </div>
+                                                            </div>
+                                                            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae taque earum rerum.</p>
+                                                            <a CLASS="button" HREF="#">Read More</a>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div CLASS="container_12">
+                            	<div CLASS="wrapper">
+                                	<article class="grid_4">
+                                    	<h3 CLASS="color-1 p2">Consultation</h3>
+                                        <span CLASS="text-1">Lorem ipsum dolor sit amet, con sectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua enim <br>ad minim veniam.</span>
+                                    </article>
+                                    <article class="grid_4">
+                                    	<h3 CLASS="color-1 p2">Our Mission</h3>
+                                        <span CLASS="text-1">Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat nulla xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</span>
+                                    </article>
+                                    <article class="grid_4">
+                                    	<h3 CLASS="color-1 indent-bot">Consultation</h3>
+                                        <form id="subscribe-form" METHOD="post" ENCTYPE="multipart/form-data">                    
+                                            <fieldset>
+                                                  <div CLASS="subscribe-field">
+                                                  	<input TYPE="text" />
+                                                  </div>
+                                                  <a CLASS="button" HREF="#" onClick="document.getElementById('subscribe-form').submit()">Subscribe</a>        
+                                            </fieldset>						
+                                        </form>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+        <div CLASS="bg-bot">
+        	<div CLASS="main">
+            	<div CLASS="container_12">
+                	<div CLASS="wrapper">
+                    	<article class="grid_4">
+                        	<div CLASS="indent-right2">
+                                <h3 CLASS="prev-indent-bot2">Space Planning</h3>
+                                <ul CLASS="list-2">
+                                    <li><a HREF="#">Totam rem aperiam eaque ipsa quae abillo</a></li>
+                                    <li><a HREF="#">Inventore veritatis quasi architecto beatae vitae</a></li>
+                                    <li><a HREF="#">Nemo enim ipsam voluptatem quia</a></li>
+                                    <li><a HREF="#">Voluptas sit aspernatur aut odit aut fugit</a></li>
+                                    <li CLASS="last-item"><a HREF="#">Sed quia consequuntur magni dolores eos</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="grid_8">
+                        	<h3 CLASS="p2">Selection &amp; Installation</h3>
+                            <div CLASS="wrapper">
+                            	<figure class="img-indent2 frame2"><img SRC="images/page2-img2.jpg" ALT="" /></figure>
+                                <div CLASS="extra-wrap">
+                                	<h6 CLASS="p1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</h6>
+                                    Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctioam libero tempore cum soluta.
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+	<!--==============================footer=================================-->
+    <footer>
+        <div CLASS="main">
+        	<div CLASS="container_12">
+            	<div CLASS="wrapper">
+                	<div CLASS="grid_4">
+                    	<div>Interior Design &copy; 2011 <a CLASS="link color-3" HREF="#">Privacy Policy</a></div>
+                        <div><a REL="nofollow" TARGET="_blank" HREF="http://www.templatemonster.com/">Website Template</a> by TemplateMonster.com | <a REL="nofollow" TARGET="_blank" HREF="http://www.html5xcss3.com/">html5xcss3.com</a></div>
+                        <!-- {%FOOTER_LINK} -->
+                    </div>
+                    <div CLASS="grid_4">
+                    	<span CLASS="phone-numb"><span>91</span> 6264505593</span>
+                    </div>
+                    <div CLASS="g1rid_4">
+                    	<ul CLASS="list-services">
+                        	<li><a HREF="#"></a></li>
+                            <li><a CLASS="item-2" HREF="#"></a></li>
+                            <li><a CLASS="item-3" HREF="#"></a></li>
+                            <li><a CLASS="item-4" HREF="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
